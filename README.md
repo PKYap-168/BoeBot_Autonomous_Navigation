@@ -80,7 +80,9 @@ This allows one program to support multiple destinations without uploading separ
 
 # Software Architecture
 The program uses a Finite State Machine (FSM) to separate different navigation behaviors.
+
 <img width="708" height="806" alt="image" src="https://github.com/user-attachments/assets/4ee2059f-0a5a-40a0-983c-555a556b2c1b" />
+
 This structure keeps the Arduino loop() relatively simple while individual behaviors are handled by dedicated functions.
 
 # Line-Following Strategy
@@ -149,7 +151,9 @@ When an obstacle is detected within the configured threshold, normal line follow
 # Obstacle Avoidance
 The robot uses a C-shaped bypass maneuver to navigate around an obstacle.
 A typical straight-path avoidance sequence is:
+
 <img width="221" height="961" alt="image" src="https://github.com/user-attachments/assets/1a241b4f-8492-4e4d-a84c-3a1ed2433e05" />
+
 This allows obstacles avoidance to temporarily interrupt navigation without resetting the robot's existing route progress.
 
 # Line Reacquisition 
