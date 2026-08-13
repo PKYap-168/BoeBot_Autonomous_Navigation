@@ -215,3 +215,38 @@ The robot was developed incrementally:
 16. Final showcase validation
 
 This incremental approach made it easier to isolate individual hardware and software problems before integrating the complete system.
+
+# Final Results
+The completed robot successfully performed autonomous navigation during the final project showcase.
+The integrated system demonstrated:
+
+- autonomous line following;
+- route recognition;
+- dynamic destination selection;
+- obstacle detection;
+- obstacle avoidance;
+- line reacquisition;
+- destination identification; and
+- autonomous stopping.
+
+# Future Improvements
+Several improvements could further develop the system:
+
+1. Replace timing-based movement with wheel encoders
+2. Implement closed-loop wheel-speed control
+3. Replace blocking delay() operations with non-blocking timing
+4. Introduce filtered ultrasonic measurements
+5. Implement proportional or PD line-following control
+6. Add additional range sensors for more flexible obstacle avoidance
+7. Introduce more advanced localization instead of event counting
+8. Log navigation telemetry for quantitative performance evaluation
+
+# Technologies and Skills
+## Technologies 
+Arduino, C++, HC-SR04, Cytron Maker Line Sensor, Parallax Boe-Bot
+## Skills
+Embedded systems, Autonomous navigation, Finite State Machine, Sensor integration, Obstacle avoidance, Hardware debugging, Robot contorl
+
+# Author
+Developed as part of a university Mechatronics Engineering robotics project.
+The project focused on the integration of embedded programming, sensor feedback, autonomous navigation, mechanical systems, and systematic engineering debugging.
