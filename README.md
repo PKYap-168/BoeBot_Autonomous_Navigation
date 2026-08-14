@@ -34,14 +34,14 @@ The source code implements:
 - Destination entry and automatic stopping
 
 # Demo
-## Demo Video 1
+## Demo Video 1 (START A -> END A)
 
 
 https://github.com/user-attachments/assets/35a7d0d0-43a0-499e-872d-360be1983f4a
 
 
 
-## Demo Video 2
+## Demo Video 2 (START A -> END B)
 
 
 https://github.com/user-attachments/assets/3d9eadea-c362-4e8b-afad-b3b008e7fd20
