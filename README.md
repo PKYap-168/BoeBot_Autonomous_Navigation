@@ -13,6 +13,19 @@ The robot autonomously:
 The completed system was successfully demonstrated during the final project showcase.
 
 # Demo
+## Demo Video 1
+
+
+https://github.com/user-attachments/assets/35a7d0d0-43a0-499e-872d-360be1983f4a
+
+
+
+## Demo Video 2
+
+
+https://github.com/user-attachments/assets/3d9eadea-c362-4e8b-afad-b3b008e7fd20
+
+
 
 # Project Objectives
 The objective of this project was to develop an autonomous navigation system capable of operating on a predefined track containing:
