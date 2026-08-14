@@ -29,26 +29,26 @@ https://github.com/user-attachments/assets/3d9eadea-c362-4e8b-afad-b3b008e7fd20
 
 # Project Objectives
 The objective of this project was to develop an autonomous navigation system capable of operating on a predefined track containing:
--> multiple destination branches;
--> rounded corners;
--> starting branches;
--> route junctions; and
--> unexpected obstacles.
+* -> multiple destination branches;
+* -> rounded corners;
+* -> starting branches;
+* -> route junctions; and
+* -> unexpected obstacles.
 Instead of relying on a completely hard-coded movement sequence, the robot uses sensor feedback and a Finite State Machine (FSM) to determine its actions during navigation.
 
 # Key Features
--> 5-channel sensor-based line following
--> Dynamic destination selection 
--> Autonomous starting-branch exit
--> Finite State Machine navigation
--> Unified route-event detection
--> Event cooldown and rearming
--> Ultrasonic obstacle detection
--> C-shaped obstacle avoidance
--> Automatic line reacquisition 
--> False route-event suppression after obstacle avoidance
--> Automatic destination entry
--> End-of-line detection and stopping
+* -> 5-channel sensor-based line following
+* -> Dynamic destination selection 
+* -> Autonomous starting-branch exit
+* -> Finite State Machine navigation
+* -> Unified route-event detection
+* -> Event cooldown and rearming
+* -> Ultrasonic obstacle detection
+* -> C-shaped obstacle avoidance
+* -> Automatic line reacquisition 
+* -> False route-event suppression after obstacle avoidance
+* -> Automatic destination entry
+* -> End-of-line detection and stopping
 
 # Hardware
 1. Parallax Boe-Bot
@@ -103,12 +103,12 @@ The robot continuously reads the line sensors and applies different levels of st
 
 The line-following controller supports:
 
--> normal forward movement;
--> soft left correction;
--> soft right correction;
--> hard left correction;
--> hard right correction; and
--> line-loss recovery.
+* -> normal forward movement;
+* -> soft left correction;
+* -> soft right correction;
+* -> hard left correction;
+* -> hard right correction; and
+* -> line-loss recovery.
 
 The robot also stores its previous line direction to determine which direction to search if the line is temporarily lost.
 
@@ -233,14 +233,14 @@ This incremental approach made it easier to isolate individual hardware and soft
 The completed robot successfully performed autonomous navigation during the final project showcase.
 The integrated system demonstrated:
 
-- autonomous line following;
-- route recognition;
-- dynamic destination selection;
-- obstacle detection;
-- obstacle avoidance;
-- line reacquisition;
-- destination identification; and
-- autonomous stopping.
+* - autonomous line following;
+* - route recognition;
+* - dynamic destination selection;
+* - obstacle detection;
+* - obstacle avoidance;
+* - line reacquisition;
+* - destination identification; and
+* - autonomous stopping.
 
 # Future Improvements
 Several improvements could further develop the system:
