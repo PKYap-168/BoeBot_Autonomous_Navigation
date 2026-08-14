@@ -12,6 +12,27 @@ The robot autonomously:
 * enters and stops at the selected destination.
 The completed system was successfully demonstrated during the final project showcase.
 
+# Source Code
+
+The complete Arduino/C++ source code for the autonomous navigation system is available in the [`src`](./src/) directory.
+
+## Main Program
+
+[`BoeBot_Autonomous_Navigation.ino`](./src/BoeBot_Autonomous_Navigation.ino)
+
+The source code implements:
+
+- Finite State Machine (FSM) navigation
+- Line-following control
+- Dynamic destination selection
+- Route-event detection and counting
+- Route-event cooldown and rearming
+- Ultrasonic obstacle detection
+- Straight-path and corner obstacle avoidance
+- Line reacquisition
+- False route-event suppression after obstacle avoidance
+- Destination entry and automatic stopping
+
 # Demo
 ## Demo Video 1
 
